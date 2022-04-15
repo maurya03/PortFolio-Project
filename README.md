@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## How to add project files into git repository
+You need to create new git repository manually.
+1. Open terminal in the project directory.
+2. git init
+3. git add . =>(we can use git status to check staging status of our files)
+4. git commit -m "First commit"
+5. Copy git repository link from git
+6. git remote add origin <repository_url>
+7. git push -u origin master
+8. Now, you will be asked to add user name and password.
